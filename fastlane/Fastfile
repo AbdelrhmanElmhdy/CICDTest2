@@ -14,6 +14,8 @@
 # update_fastlane
 
 default_platform(:ios)
+ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "600"
+ENV["FASTLANE_XCODEBUILD_SETTINGS_RETRIES"] = "8"
 
 
 
